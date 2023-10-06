@@ -1,9 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20sp"
+    android:background="@drawable/gradient3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".forth">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100sp"
+            android:layout_marginTop="10sp"
+            android:text="back"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="1.ठहर जा नजर में तू जी भर के तुझे देख लूं
+बीत जाए ना ये पल कहीं
+इन पलों को में समेट लूं
+"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="2.चेहरे पे मेरे जुल्फों को फैलाओ किसी दिन,क्यूँ रोज गरजते हो बरस जाओ किसी दिन,खुशबु की तरह गुजरो मेरी दिल की गली से,फूलों की तरह मुझपे बिखर जाओ किसी दिन।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="3.ये ज़ुल्फ़ अगर खुलके बिखर जाये तो अच्छा,इस रात की तकदीर संवर जाए तो अच्छा,जिस तरह से थोड़ी सी तेरे साथ कटी है,बाकी भी इसी तरह गुजर जाए तो अच्छा।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="4.सर्द हवाओं ने गालों को छुआ है,शायद तुमने मेरा नाम लिया होगा,दिल की धड़कन रुक सी गयी है सीने में,शायद तुमने मुझे थाम लिया होगा।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="5.सर्द हवाओं ने गालों को छुआ है,शायद तुमने मेरा नाम लिया होगा,दिल की धड़कन रुक सी गयी है सीने में,शायद तुमने मुझे थाम लिया होगा।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="6.तुझे देखने से मेरा चेहरा कुछ यूं खिल जाता है
+जैसे तेरे होने से मुझे सबकुछ मिल जाता है.!!"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="7.सुर्ख गुलाब सी तुम हो,जिन्दगी के बहाव सी तुम हो,हर कोई पढ़ने को बेकरार,पढ़ने वाली किताब सी तुम हो।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="8.जन्म-जन्म जो साथ निभाए,तुम ऐसा बंधन बन जाओ,मैं बन जाऊं प्यार भरा दिल,तुम दिल की धड़कन बन जाओ।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="9.एक पल के लिए जब तू पास आता है,मेरा हर लम्हा ख़ास बन जाता है,सँवरने सी लगती है ये ज़िन्दगी अपनी,जब भी तू मेरी बाहों में मुस्कुराता है।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="10.रख लूं नजर में चेहरा तेरादिन रात इसी पे मरता रहूं..जब तक ये सांसे चलती रहें,मैं तुझसे मोहब्बत करता रहूं…"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="11.तेज बारिश में कभी सर्द हवाओं में रहा,एक तेरा ज़िक्र था जो मेरी सदाओं में रहा,कितने लोगों से मेरे गहरे रिश्ते थे मगर,तेरा चेहरा ही सिर्फ मेरी दुआओं में रहा।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="12.कुछ नशा तेरी बात का है,कुछ नशा धीमी बरसात का है,हमें तुम यूँही पागल मत समझो,ये दिल पर असर पहली मुलाकात का है!!"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="13.अगर मैं हद से गुज़र जाऊं तो मुझे माफ़ करना,तेरे दिल में उत्तर जाऊं तो मुझे माफ़ करना,रात में तुझे देख के तेरे दीदार के ख़ातिर,पल भर जो ठहर जाऊं तो मुझे माफ़ करना!!"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="14.आज बारिश में तेरे संग नहाना है,सपना ये मेरा कितना सुहाना है,बारिश की बूंदें जो गिरे तेरे होंठों पे,उन्हें अपने होंठों से उठाना है।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="15.कभी लफ्ज़ भूल जाऊं कभी बात भूल जाऊंतूझे इस कदर चाहूँ कि अपनी ज़ात भूल जाऊंकभी उठ के तेरे पास से जो मैं चल दूँजाते हुए खुद को तेरे पास भूल जाऊं।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,9 +1,224 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20sp"
+    android:background="@drawable/gradient3"
     tools:context=".fifth">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="ScrollViewSize">
+
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100sp"
+            android:layout_marginTop="10sp"
+            android:text="back"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="1.जीतेंगे हम ये वादा करोकोशिश हमेशा ज्यादा करोकिस्मत भी रूठे पर हिम्मत ना टूटेमज़बूत इतना इरादा करो…"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="2.खुल जाएँगे सभी रास्ते रूकावट से लड़ तो सही होगा साहिल पर तू जिद्द पर अड़ तो सही।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="3.परिंदों को मंज़िल मिलेगी यक़ीननये फैले हुए उनके पर बोलते हैंअक्सर वो लोग खामोश रहते हैंज़माने में जिनके हुनर बोलते हैं।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="4.यूँ ज़मीन पर बैठकर क्यों आसमान देखता हैपंखो को खोल ज़माना सिर्फ उड़ान देखता है"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="5.सपना एक देखोगे मुश्किलें हजार आएंगीलेकिन वो मंजर बड़ा खूबसूरत होगाजब कामयाबी शोर मचाएगी।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="6.हथेली पर रखकर नसीब तू क्यों अपना मुकद्दर ढूंढता है ..सीख उस समंदर से .. जो टकराने के लिए .. पत्थर ढूंढता है"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="7.सीढ़ियां उन्हें मुबारक हों,जिन्हें सिर्फ छत तक जाना है,मेरी मंज़िल तो आसमान है,रास्ता मुझे खुद बनाना है।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="8.जिसने भी किया है कुछ बड़ावो कभी किसी से नहीं डरा।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="9.अपनी जमीन अपना नया आसमान पैदा करमांगने से जिंदगी कब मिली है ऐ दोस्तखुद ही अपना नया इतिहास पैदा कर।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="10.ना पूछो कि मेरी मंज़िल कहाँ हैं,अभी तो सफ़र का इरादा किया है,ना हारूँगा हौंसला उम्र भर,ये मैंने किसी से नहीं खुद से वादा किया है"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="11.कई लोग मुझको गिराने मे लगे हैं,सरे आम चिराग बुझाने मे लगे हैं,उन से कह दो क़तरा नही मैं? समुंद्र हूँ,डूब गये वो ख़ुद जो डुबाने मे लगे हैं।।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="12.लाखों ठोकरों के बाद भी संभलता रहूँगा,गिरकर फिर से उठूगा और चलता रहूँगा."
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="13.चलता रहूँगा पथ पर चलने में माहिर बन जाऊंगा ..या तो मंजिल मिल जायेगी या अच्छा मुसाफिर बन जाऊंगा"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="14.मंजिल उन्हीं को मिलती है,जिनके सपनों में जान होती है,पंखों से कुछ नहीं होता,हौसलों से उड़ान होती है।"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reactangle"
+            android:text="15.हर सपने को अपनी सांसों में रखो,हर मंजिल को अपनी बाहों में रखो,हर जीत आपकी है ए दोस्त,बस अपने लक्ष्य को अपनी निगाहों में रखो !!"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</ScrollView>

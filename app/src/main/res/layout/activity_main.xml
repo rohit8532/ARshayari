@@ -9,26 +9,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <Button
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/next"
         android:textSize="40sp"
-        android:layout_marginTop="110sp"
-        android:layout_marginStart="80sp"
-        />
+        android:layout_gravity="center"
+        android:layout_marginTop="150sp"
+        android:gravity="center"/>
 
 
     <Button
+        android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/exit"
         android:textSize="40sp"
-        android:layout_marginStart="95dp"
+        android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:gravity="center" />
-
 
 </LinearLayout>
 
