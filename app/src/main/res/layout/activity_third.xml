@@ -16,25 +16,32 @@
 
 
         <Button
-            android:id="@+id/btn7"
+            android:id="@+id/btn8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="100sp"
             android:layout_marginTop="10sp"
             android:text="@string/back"/>
 
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-80sp"
+            android:layout_marginTop="-50sp"
+            android:text="exit"/>
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
             android:background="@drawable/reactangle"
             android:text="@string/_1"
-            android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="30sp"
-            android:layout_marginTop="25dp"
-            android:layout_gravity="center" />
-
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
