@@ -28,14 +28,14 @@ Button btn;
 
         btn=findViewById(R.id.btn5);
         btn.setOnClickListener(view -> {
-            Intent i = new Intent(second.this,forth.class);
-            startActivity(i);
+            Intent j = new Intent(second.this,forth.class);
+            startActivity(j);
         });
 
         btn=findViewById(R.id.btn6);
         btn.setOnClickListener(view -> {
-            Intent i = new Intent(second.this,fifth.class);
-            startActivity(i);
+            Intent k = new Intent(second.this,fifth.class);
+            startActivity(k);
         });
         btn=findViewById(R.id.btn7);
         btn.setOnClickListener(view -> finishAffinity());

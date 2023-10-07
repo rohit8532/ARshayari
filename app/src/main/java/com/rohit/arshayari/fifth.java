@@ -18,7 +18,7 @@ public class fifth extends AppCompatActivity {
 
         btn=findViewById(R.id.btn12);
         btn.setOnClickListener(view -> {
-            Intent i = new Intent(fifth.this,forth.class);
+            Intent i = new Intent(fifth.this, second.class);
             startActivity(i);
         });
         btn=findViewById(R.id.btn13);

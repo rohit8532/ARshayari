@@ -36,6 +36,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".second"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".splash"
             android:exported="true">
             <intent-filter>

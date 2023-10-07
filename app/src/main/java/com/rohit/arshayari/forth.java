@@ -18,7 +18,7 @@ public class forth extends AppCompatActivity {
 
         btn=findViewById(R.id.btn10);
         btn.setOnClickListener(view -> {
-            Intent i = new Intent(forth.this,third.class);
+            Intent i = new Intent(forth.this, second.class);
             startActivity(i);
         });
         btn=findViewById(R.id.btn11);
